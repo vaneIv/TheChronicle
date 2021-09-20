@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">The Chronicle</string>
+    <string name="article_list_title">Articles</string>
+    <string name="article_details_title">Article</string>
+    <string name="generic_error">Something went wrong</string>
+    <string name="network_error">Network error</string>
 </resources>
