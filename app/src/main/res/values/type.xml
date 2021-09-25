@@ -4,7 +4,6 @@
     <!--Typography-->
     <style name="TextAppearance.TheChronicle.Headline1" parent="TextAppearance.MaterialComponents.Headline1">
         <item name="fontFamily">@font/merriweather_black_italic</item>
-        <item name="android:textColor">@color/textColorPrimary</item>
     </style>
 
     <style name="TextAppearance.TheChronicle.Headline2" parent="TextAppearance.MaterialComponents.Headline2">
@@ -13,11 +12,11 @@
 
     <style name="TextAppearance.TheChronicle.Headline3" parent="TextAppearance.MaterialComponents.Headline3">
         <item name="fontFamily">@font/merriweather_black_italic</item>
-        <item name="android:textColor">@color/textColorPrimary</item>
     </style>
 
     <style name="TextAppearance.TheChronicle.Headline4" parent="TextAppearance.MaterialComponents.Headline4">
-        <item name="fontFamily">@font/libre_franklin</item>
+        <item name="fontFamily">@font/old_london</item>
+        <item name="android:textColor">@color/colorOnPrimary</item>
     </style>
 
     <style name="TextAppearance.TheChronicle.Headline5" parent="TextAppearance.MaterialComponents.Headline5">
@@ -45,7 +44,8 @@
     </style>
 
     <style name="TextAppearance.TheChronicle.Button" parent="TextAppearance.MaterialComponents.Button">
-        <item name="fontFamily">@font/libre_franklin_bold</item>
+        <item name="fontFamily">@font/libre_franklin</item>
+        <item name="android:fontFamily">@font/libre_franklin</item>
     </style>
 
     <style name="TextAppearance.TheChronicle.Caption" parent="TextAppearance.MaterialComponents.Caption">
@@ -56,4 +56,7 @@
         <item name="fontFamily">@font/libre_franklin_bold</item>
     </style>
 
+    <style name="TextAppearance.TheChronicle.ToolbarTitle" parent="TextAppearance.TheChronicle.Headline4">
+        <item name="fontFamily">@font/old_london</item>
+    </style>
 </resources>

@@ -5,7 +5,7 @@
         <!--Material color attributes-->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorSecondary">@color/colorSecondary</item>
-        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
         <item name="android:textColorSecondary">@color/textColorLight</item>
 
         <!--Material type attributes-->
@@ -22,6 +22,8 @@
         <item name="textAppearanceButton">@style/TextAppearance.TheChronicle.Button</item>
         <item name="textAppearanceCaption">@style/TextAppearance.TheChronicle.Caption</item>
         <item name="textAppearanceOverline">@style/TextAppearance.TheChronicle.Overline</item>
+
+        <item name="toolbarStyle">@style/Widget.TheChronicle.Toolbar</item>
 
     </style>
 </resources>

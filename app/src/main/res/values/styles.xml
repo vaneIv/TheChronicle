@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <style name="Widget.TheChronicle.Toolbar" parent="Widget.MaterialComponents.Toolbar">
+<!--        <item name="titleCentered">true</item>-->
+<!--        <item name="titleTextAppearance">@style/TextAppearance.TheChronicle.ToolbarTitle</item>-->
+    </style>
+
 </resources>
