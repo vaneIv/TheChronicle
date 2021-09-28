@@ -1,11 +1,12 @@
-package com.vane.android.thechronicle
+package com.vane.android.thechronicle.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.vane.android.thechronicle.R
 
-class MainActivity : AppCompatActivity() {
+class NewsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_news)
     }
 }

@@ -2,7 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.TheChronicle" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimary</item>
-        <item name="colorAccent">@color/colorSecondary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="android:textColorSecondary">@color/textColorLight</item>
     </style>
 </resources>

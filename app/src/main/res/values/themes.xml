@@ -1,12 +1,15 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
+
     <!-- Base application theme. -->
-    <style name="Theme.TheChronicle" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Base.Theme.TheChronicle" parent="Theme.MaterialComponents.DayNight.NoActionBar">
 
         <!--Material color attributes-->
         <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorSecondary">@color/colorSecondary</item>
         <item name="colorOnPrimary">@color/colorOnPrimary</item>
         <item name="android:textColorSecondary">@color/textColorLight</item>
+        <item name="tabTextColor">@color/textColorMedium</item>
 
         <!--Material type attributes-->
         <item name="textAppearanceHeadline1">@style/TextAppearance.TheChronicle.Headline1</item>
@@ -23,7 +26,13 @@
         <item name="textAppearanceCaption">@style/TextAppearance.TheChronicle.Caption</item>
         <item name="textAppearanceOverline">@style/TextAppearance.TheChronicle.Overline</item>
 
-        <item name="toolbarStyle">@style/Widget.TheChronicle.Toolbar</item>
-
     </style>
+
+    <style name="Theme.TheChronicle" parent="Base.Theme.TheChronicle">
+        <!--Appbar Headline Title-->
+        <item name="titleTextAppearance">@style/TextAppearance.TheChronicle.Toolbar.Title</item>
+        <!-- Status bar stuff. -->
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+    </style>
+
 </resources>

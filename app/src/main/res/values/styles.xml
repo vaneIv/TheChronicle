@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Widget.TheChronicle.Toolbar" parent="Widget.MaterialComponents.Toolbar">
-<!--        <item name="titleCentered">true</item>-->
-<!--        <item name="titleTextAppearance">@style/TextAppearance.TheChronicle.ToolbarTitle</item>-->
+    <!--TabItem style-->
+    <style name="Widget.TheChronicle.TabLayout" parent="Widget.MaterialComponents.TabLayout">
+        <item name="tabTextColor">?attr/colorOnPrimary</item>
+        <item name="tabTextAppearance">@style/TextAppearance.TheChronicle.TabLayout</item>
+        <item name="tabSelectedTextColor">?attr/tabTextColor</item>
+        <item name="tabIndicatorHeight">0dp</item>
     </style>
-
 </resources>

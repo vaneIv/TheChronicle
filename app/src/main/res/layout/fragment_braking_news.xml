@@ -13,8 +13,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:textAlignment="center"
-        android:textAppearance="?attr/textAppearanceHeadline3"
+        android:textAppearance="?attr/textAppearanceHeadline6"
         android:text="Breaking News"
-        tools:text="Proba" />
+        tools:text="Breaking News Fragment" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
