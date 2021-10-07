@@ -68,4 +68,10 @@
         <item name="android:textSize">@dimen/toolbar_text_size</item>
     </style>
 
+    // RecyclerView item, text_view_author TextAppearance
+    <style name="TextAppearance.TheChronicle.TextView.Author" parent="TextAppearance.TheChronicle.Button">
+        <item name="fontFamily">@font/libre_franklin_bold</item>
+        <item name="android:fontFamily">@font/libre_franklin_bold</item>
+    </style>
+
 </resources>

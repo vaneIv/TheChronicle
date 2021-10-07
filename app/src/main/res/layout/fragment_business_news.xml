@@ -7,17 +7,19 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <TextView
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_business_news"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:orientation="vertical"
+            android:padding="@dimen/spacing_normal"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:textAlignment="center"
-            android:textAppearance="?attr/textAppearanceHeadline6"
-            android:text="Business News"
-            tools:text="Business News Fragment" />
+            tools:listitem="@layout/list_item_news_article" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
