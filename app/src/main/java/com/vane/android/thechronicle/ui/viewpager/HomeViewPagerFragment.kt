@@ -9,7 +9,9 @@ import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 import com.vane.android.thechronicle.R
 import com.vane.android.thechronicle.databinding.FragmentViewPagerBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class HomeViewPagerFragment : Fragment() {
 
     override fun onCreateView(
