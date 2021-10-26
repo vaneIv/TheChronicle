@@ -1,4 +1,4 @@
-package com.vane.android.thechronicle.ui
+package com.vane.android.thechronicle
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

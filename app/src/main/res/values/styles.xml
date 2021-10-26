@@ -1,11 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!--Toolbar style-->
+    <style name="Widget.TheChronicle.Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:theme">@style/Theme.TheChronicle</item>
+        <item name="popupTheme">@style/ThemeOverlay.MaterialComponents.Light</item>
+        <item name="titleTextAppearance">?attr/titleTextAppearance</item>
+    </style>
+
     <!--TabItem style-->
     <style name="Widget.TheChronicle.TabLayout" parent="Widget.MaterialComponents.TabLayout">
         <item name="tabTextColor">?attr/colorOnPrimary</item>
         <item name="tabTextAppearance">@style/TextAppearance.TheChronicle.TabLayout</item>
         <item name="tabSelectedTextColor">?attr/tabTextColor</item>
         <item name="tabIndicatorHeight">0dp</item>
+    </style>
+
+    <!--Date range TextInputLayout style-->
+    <style name="Widget.TheChronicle.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxBackgroundColor">?attr/colorPrimary</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="hintTextAppearance">@style/TextAppearance.TheChronicle.Spinner</item>
+        <item name="hintTextColor">?attr/colorSecondary</item>
+    </style>
+
+    <!--Languages and sort Spinner TextInputLayout Style-->
+    <style name="Widget.TheChronicle.TextInputLayout.Spinner" parent="Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu">
+        <item name="boxBackgroundColor">?attr/colorPrimary</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="hintTextAppearance">@style/TextAppearance.TheChronicle.Spinner</item>
+        <item name="hintTextColor">?attr/colorSecondary</item>
     </style>
 </resources>

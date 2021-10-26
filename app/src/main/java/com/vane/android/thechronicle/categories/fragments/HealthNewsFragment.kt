@@ -1,4 +1,4 @@
-package com.vane.android.thechronicle.ui
+package com.vane.android.thechronicle.categories.fragments
 
 import androidx.fragment.app.Fragment
 import com.vane.android.thechronicle.R

@@ -32,7 +32,8 @@
         <!--Appbar Headline Title-->
         <item name="titleTextAppearance">@style/TextAppearance.TheChronicle.Toolbar.Title</item>
         <!-- Status bar stuff. -->
-        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryDark</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="M">true</item>
     </style>
 
 </resources>

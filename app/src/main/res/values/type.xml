@@ -16,10 +16,12 @@
 
     <style name="TextAppearance.TheChronicle.Headline4" parent="TextAppearance.MaterialComponents.Headline4">
         <item name="fontFamily">@font/libre_franklin</item>
+        <item name="android:fontFamily">@font/libre_franklin</item>
     </style>
 
     <style name="TextAppearance.TheChronicle.Headline5" parent="TextAppearance.MaterialComponents.Headline5">
         <item name="fontFamily">@font/libre_franklin</item>
+        <item name="android:fontFamily">@font/libre_franklin</item>
     </style>
 
     <style name="TextAppearance.TheChronicle.Headline6" parent="TextAppearance.MaterialComponents.Headline6">
@@ -28,6 +30,7 @@
 
     <style name="TextAppearance.TheChronicle.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
         <item name="fontFamily">@font/libre_franklin_medium</item>
+        <item name="android:fontFamily">@font/libre_franklin_medium</item>
     </style>
 
     <style name="TextAppearance.TheChronicle.Subtitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
@@ -40,11 +43,12 @@
 
     <style name="TextAppearance.TheChronicle.Body2" parent="TextAppearance.MaterialComponents.Body2">
         <item name="fontFamily">@font/libre_franklin</item>
+        <item name="android:fontFamily">@font/libre_franklin</item>
     </style>
 
     <style name="TextAppearance.TheChronicle.Button" parent="TextAppearance.MaterialComponents.Button">
-        <item name="fontFamily">@font/libre_franklin</item>
-        <item name="android:fontFamily">@font/libre_franklin</item>
+        <item name="fontFamily">@font/libre_franklin_bold</item>
+        <item name="android:fontFamily">@font/libre_franklin_bold</item>
     </style>
 
     <style name="TextAppearance.TheChronicle.Caption" parent="TextAppearance.MaterialComponents.Caption">
@@ -55,23 +59,34 @@
         <item name="fontFamily">@font/libre_franklin_bold</item>
     </style>
 
-    // Appbar Headline TextAppearance
+    <!--Appbar Headline TextAppearance-->
     <style name="TextAppearance.TheChronicle.Toolbar.Title" parent="TextAppearance.TheChronicle.Headline4">
         <item name="fontFamily">@font/old_london</item>
         <item name="android:textColor">?attr/colorOnPrimary</item>
     </style>
 
-    // TabLayout TextAppearance
+    <!--TabLayout TextAppearance-->
     <style name="TextAppearance.TheChronicle.TabLayout" parent="TextAppearance.TheChronicle.Body2">
-        <item name="fontFamily">@font/libre_franklin</item>
-        <item name="android:fontFamily">@font/libre_franklin</item>
         <item name="android:textSize">@dimen/toolbar_text_size</item>
     </style>
 
-    // RecyclerView item, text_view_author TextAppearance
+    <!--RecyclerView item, text_view_author TextAppearance-->
     <style name="TextAppearance.TheChronicle.TextView.Author" parent="TextAppearance.TheChronicle.Button">
         <item name="fontFamily">@font/libre_franklin_bold</item>
         <item name="android:fontFamily">@font/libre_franklin_bold</item>
     </style>
 
+    <!--Spinner TextAppearance-->
+    <style name="TextAppearance.TheChronicle.Spinner" parent="TextAppearance.TheChronicle.Subtitle2">
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+
+    <!--Search input TextAppearance-->
+    <style name="TextAppearance.TheChronicle.SearchInput" parent="TextAppearance.TheChronicle.Headline5">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+
+    <style name="TextAppearance.TheChronicle.SearchButton" parent="TextAppearance.TheChronicle.Button">
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
 </resources>
