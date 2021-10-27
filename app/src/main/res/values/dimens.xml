@@ -12,7 +12,7 @@
     <dimen name="spacing_large">32dp</dimen>
     <dimen name="basic_margin">12dp</dimen>
 
-    <dimen name="image_size_small">52dp</dimen>
+    <dimen name="image_size_small">80dp</dimen>
     <dimen name="image_size_large">220dp</dimen>
 
     <dimen name="search_foreground_reveal_height">200dp</dimen>

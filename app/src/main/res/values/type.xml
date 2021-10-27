@@ -26,6 +26,7 @@
 
     <style name="TextAppearance.TheChronicle.Headline6" parent="TextAppearance.MaterialComponents.Headline6">
         <item name="fontFamily">@font/merriweather_bold_italic</item>
+        <item name="android:fontFamily">@font/merriweather_bold_italic</item>
     </style>
 
     <style name="TextAppearance.TheChronicle.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
@@ -35,10 +36,12 @@
 
     <style name="TextAppearance.TheChronicle.Subtitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
         <item name="fontFamily">@font/merriweather</item>
+        <item name="android:fontFamily">@font/merriweather</item>
     </style>
 
     <style name="TextAppearance.TheChronicle.Body1" parent="TextAppearance.MaterialComponents.Body1">
         <item name="fontFamily">@font/merriweather</item>
+        <item name="android:fontFamily">@font/merriweather</item>
     </style>
 
     <style name="TextAppearance.TheChronicle.Body2" parent="TextAppearance.MaterialComponents.Body2">
@@ -70,15 +73,14 @@
         <item name="android:textSize">@dimen/toolbar_text_size</item>
     </style>
 
-    <!--RecyclerView item, text_view_author TextAppearance-->
-    <style name="TextAppearance.TheChronicle.TextView.Author" parent="TextAppearance.TheChronicle.Button">
-        <item name="fontFamily">@font/libre_franklin_bold</item>
-        <item name="android:fontFamily">@font/libre_franklin_bold</item>
-    </style>
-
     <!--Spinner TextAppearance-->
     <style name="TextAppearance.TheChronicle.Spinner" parent="TextAppearance.TheChronicle.Subtitle2">
         <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+
+    <!--Source and Publish date TextAppearance-->
+    <style name="TextAppearance.TheChronicle.Subtitles" parent="TextAppearance.TheChronicle.Subtitle1">
+        <item name="android:textSize">14sp</item>
     </style>
 
     <!--Search input TextAppearance-->
@@ -86,6 +88,7 @@
         <item name="android:textSize">@dimen/text_size_medium</item>
     </style>
 
+    <!--Search button TextAppearance-->
     <style name="TextAppearance.TheChronicle.SearchButton" parent="TextAppearance.TheChronicle.Button">
         <item name="android:textSize">@dimen/text_size_small</item>
     </style>
