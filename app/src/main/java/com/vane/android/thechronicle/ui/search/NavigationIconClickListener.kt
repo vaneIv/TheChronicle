@@ -1,4 +1,4 @@
-package com.vane.android.thechronicle.search
+package com.vane.android.thechronicle.ui.search
 
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
@@ -10,6 +10,7 @@ import android.view.View
 import android.view.animation.Interpolator
 import android.widget.ImageView
 import com.vane.android.thechronicle.R
+import com.vane.android.thechronicle.utils.hideKeyboard
 
 class NavigationIconClickListener @JvmOverloads internal constructor(
     private val context: Context,
@@ -39,6 +40,9 @@ class NavigationIconClickListener @JvmOverloads internal constructor(
 
         updateIcon(view)
 
+        // OnClick hide the keyboard
+        context.hideKeyboard(view)
+
         val translateY =
             height - context.resources.getDimensionPixelSize(R.dimen.search_foreground_reveal_height)
 
@@ -47,7 +51,7 @@ class NavigationIconClickListener @JvmOverloads internal constructor(
             (if (backdropShown) translateY else 0).toFloat()
         )
 
-        animator.duration = 400
+        animator.duration = 500
         if (interpolator != null) {
             animator.interpolator = interpolator
         }
@@ -63,6 +67,7 @@ class NavigationIconClickListener @JvmOverloads internal constructor(
             }
             if (backdropShown) {
                 view.setImageDrawable(closeIcon)
+                //context.hideKeyboard(view)
             } else {
                 view.setImageDrawable(openIcon)
             }

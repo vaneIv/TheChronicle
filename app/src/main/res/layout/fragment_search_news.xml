@@ -11,7 +11,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".search.SearchNewsFragment">
+        tools:context=".ui.search.SearchNewsFragment">
 
         <com.google.android.material.appbar.AppBarLayout
             android:id="@+id/appbar_layout"
@@ -46,7 +46,6 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/spacing_small"
             android:layout_marginEnd="@dimen/spacing_normal"
-            android:layout_marginBottom="@dimen/spacing_normal"
             android:layout_marginStart="@dimen/spacing_normal"
             android:drawableEnd="@drawable/ic_baseline_search_24"
             android:hint="@string/search_news_hint_label"

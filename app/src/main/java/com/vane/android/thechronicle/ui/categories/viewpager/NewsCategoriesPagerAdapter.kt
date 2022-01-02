@@ -1,8 +1,8 @@
-package com.vane.android.thechronicle.categories.viewpager
+package com.vane.android.thechronicle.ui.categories.viewpager
 
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.vane.android.thechronicle.categories.fragments.*
+import com.vane.android.thechronicle.ui.categories.fragments.*
 
 const val BREAKING_NEWS_PAGE_INDEX = 0
 const val SPORTS_NEWS_PAGE_INDEX = 1

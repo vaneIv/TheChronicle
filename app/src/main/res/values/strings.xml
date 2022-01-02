@@ -5,6 +5,7 @@
     <string name="article_details_title">Article</string>
     <string name="generic_error">Something went wrong</string>
     <string name="network_error">Network error</string>
+    <string name="retry">Retry</string>
 
     <!-- News category label -->
     <string name="category_sports_label">#Sport</string>

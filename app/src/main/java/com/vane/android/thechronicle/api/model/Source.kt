@@ -1,4 +1,4 @@
-package com.vane.android.thechronicle.model
+package com.vane.android.thechronicle.api.model
 
 data class Source(
     val id: String,

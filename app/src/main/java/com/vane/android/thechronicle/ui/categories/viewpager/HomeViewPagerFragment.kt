@@ -1,4 +1,4 @@
-package com.vane.android.thechronicle.categories.viewpager
+package com.vane.android.thechronicle.ui.categories.viewpager
 
 import android.os.Bundle
 import android.view.LayoutInflater
